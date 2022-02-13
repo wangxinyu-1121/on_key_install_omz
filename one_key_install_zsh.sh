@@ -54,6 +54,8 @@ install_ubuntu(){
 
         sudo apt-get install autojump -y
         echo "[!] need to add autojump in ~/.zshrc plugin and logoff manually!"
+	echo "[!] 需要在~/.zshrc文件中的plugins下方增加行 autojump，保存退出之后即可生效!"
+
 }
 
 
@@ -93,10 +95,14 @@ install_macOS(){
         echo "[+] brew install some dependencies..."
 
         # brew update && brew upgrade
-        su - $USER -c brew install git
-        su - $USER -c brew install curl
-        su - $USER -c brew install zsh
-        su - $USER -c brew install tmux
+#         su - $USER -c brew install git  # 这个可能执行不了
+#         su - $USER -c brew install curl  # 这个可能执行不了
+#         su - $USER -c brew install zsh  # 这个可能执行不了
+#         su - $USER -c brew install tmux  # 这个可能执行不了
+        brew install git
+        brew install curl
+        brew install zsh
+        brew install tmux
 
         #optional
         # brew install vim  | brew upgrade vim
