@@ -1,7 +1,7 @@
 #!/bin/bash
 # author: thinkycx
 # date: 2018-04-30
-# update: 2022-02-13  Modified By wangxinyu1121
+# update: 2022-02-13  Modified By wangxinyu-1121
 # usage:
 #        curl -fsSL https://gist.githubusercontent.com/thinkycx/2e21c3572a8d1fde21aad07a58fcf940/raw/ -o zsh.sh && sudo bash zsh.sh
 #
